@@ -1,38 +1,92 @@
 @charset "UTF-8";
+
+@font-face {
+      font-family: Spotify-font;
+      src: url(assets/font/Spotify/CircularSpotifyTxT-Black.ttf)
+}
+
+@font-face {
+      font-family: CircularAir-Book;
+      src: url(assets/font/CircularAir-Book/CircularAir-Book.ttf)
+}
+
 * {
       box-sizing: border-box;
       webkit-box-sizing: border-box;
       box-sizing: border-box;
-  }
-body{
-      font-family: Arial, Helvetica, sans-serif;
+}
+
+*:before,
+*:after {
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+}
+
+
+body {
+      font-family: CircularAir-Book;
       background-color: #1b263a;
- }
- header{
-      background-color: black; 
+
+      font-size: 16px;
+      line-height: 1.5;
+      color: #000;
+}
+
+header {
+      background-color: black;
       line-height: 1.5;
       min-height: 54px;
- }
-a{
-      color:#fff;
+}
+
+.nav-link {
+      color: #fff;
       font-size: 16px;
       font-weight: 600;
 }
-a:hover{
-      color:#1ed760;
+
+.nav-link:hover {
+      color: #1ed760;
 }
-ul{
+
+ul {
       margin-right: 0px;
 }
-li:not(:last-child){
+
+li:not(:last-child) {
       color: #fff;
-      margin: 10px; 
+      margin: 10px;
+      font-family: Spotify-font;
 }
-.div-header{
+
+h1 {
+      color: black;
+      margin: 0;
+      padding: 0;
+      font-weight: 600;
+      max-width: 100%;
+      width: auto;
+      display: inline-block;
+      font-size: 46px;
+      line-height: 40px;
+      -webkit-letter-spacing: -0.04em;
+      -moz-letter-spacing: -0.04em;
+      -ms-letter-spacing: -0.04em;
+      letter-spacing: -0.04em;
+      text-align: center;
+      font-family: Spotify-font;
+}
+
+h6 {
+      margin-top: 16px;
+      font-size: 14px;
+}
+
+.div-header {
       margin-top: 20px;
       margin-bottom: 20px;
 }
-.btn-perfil{
+
+.btn-perfil {
       margin-left: 7px;
       -webkit-box-align: center;
       -ms-flex-align: center;
@@ -47,20 +101,103 @@ li:not(:last-child){
       color: #fff;
       line-height: inherit;
 }
-.btn-perfil:hover{
-      color:#1ed760;
+
+.btn-perfil:hover {
+      color: #1ed760;
 }
-.nav-item{
+
+.nav-item {
       margin-top: auto;
       margin-bottom: auto;
 }
-.text{
-      display: inline-block;
-      padding-left: 7px;
-}
-.padding-right-0{
+
+
+.padding-right-0 {
       padding-right: 0px;
 }
-.font-weight-normal{
+
+.font-weight-normal {
       font-weight: normal;
+}
+
+.letras-miudas {
+      font-size: 11px;
+      line-height: 12px;
+      margin: 16px 0;
+      width: 100%;
+      color: black;
+      text-decoration: none;
+}
+
+.letras-miudas a {
+      color: #000;
+      -webkit-text-decoration: underline;
+      text-decoration: underline;
+}
+
+.banner {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-align-items: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-align-content: flex-start;
+      -ms-flex-line-pack: start;
+      align-content: flex-start;
+      background-color: #ff4632;
+      padding-top: 30px;
+}
+
+.texto-promocional {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-flex-shrink: 1;
+      -ms-flex-negative: 1;
+      flex-shrink: 1;
+      box-sizing: border-box;
+      text-align: center;
+      -webkit-font-smoothing: antialiased;
+      color: black;
+      justify-content: space-around;
+
+}
+
+.imagem-promocional {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      box-sizing: border-box;
+      width: 300px;
+      height: 300px;
+      margin: auto;
+      background: url(https://campaigns.scdn.co/images/holiday-2020-balloons.png) no-repeat;
+      background-size: contain;
+      background-origin: content-box;
+}
+
+.btn-dark {
+      background-color: black;
+      padding: 8px 32px 8px 32px;
+      border-radius: 32px;
+      font-size: 14px;
+      margin-top: 35px;
+      margin-bottom: 16px;
+}
+
+.btn-dark:hover {
+      background-color: white;
+      border-color: white;
+      color: #000;
 }
