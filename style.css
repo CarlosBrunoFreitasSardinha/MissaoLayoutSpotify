@@ -32,7 +32,7 @@ body {
 }
 
 header {
-      background-color: black;
+      background-color: #000;
       line-height: 1.5;
       min-height: 54px;
 }
@@ -107,7 +107,7 @@ footer {
 
 .nav-link-header, .nav-link {
       color: #fff;
-      font-size: 16px;
+      font-size: 15px;
 }
 
 .nav-link-header:hover, .nav-link:hover{
@@ -116,30 +116,27 @@ footer {
 
 .nav-link-header{
       font-family: Spotify-font;
-      font-weight: 600;
+      font-weight: 500;
 }
 
 .nav-link{
       font-family: CircularAir-Book;
 }
 
-.nav-link-header :not(:last-child) {
-      margin: 10px;
+.navbar-spotify:not(:last-child) {
+      margin-left: 12px;
+      margin-right: 12px;
 }
-
 .bandeira{
       height: 12px;
       width: 20;
 }
-
 .padding-right-0 {
       padding-right: 0px;
 }
-
 .font-weight-normal {
       font-weight: normal;
 }
-
 .letras-miudas {
       font-size: 11px;
       line-height: 12px;
@@ -148,13 +145,11 @@ footer {
       color: black;
       text-decoration: none;
 }
-
 .letras-miudas a {
       color: #000;
       -webkit-text-decoration: underline;
       text-decoration: underline;
 }
-
 .banner {
       display: -webkit-box;
       display: -webkit-flex;
@@ -170,7 +165,6 @@ footer {
       background-color: #ff4632;
       padding-top: 30px;
 }
-
 .texto-promocional {
       display: -webkit-box;
       display: -webkit-flex;
@@ -189,7 +183,6 @@ footer {
       justify-content: space-around;
 
 }
-
 .imagem-promocional {
       display: -webkit-box;
       display: -webkit-flex;
@@ -230,13 +223,11 @@ footer {
       margin-top: 35px;
       margin-bottom: 16px;
 }
-
 .btn-dark:hover {
       background-color: white;
       border-color: white;
       color: #000;
 }
-
 .nav-item-social {
       flex: 1 1 auto;
       text-align: center;
