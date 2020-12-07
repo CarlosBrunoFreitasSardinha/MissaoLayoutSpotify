@@ -134,6 +134,7 @@ footer {
       margin-left: 12px;
       margin-right: 12px;
 }
+
 .bandeira{
       height: 12px;
       width: 20;
@@ -146,12 +147,15 @@ footer {
 .padding-left-32 {
       padding-left: 32px;
 }
+
 .margin-left-6 {
       margin-left: 6px;
 }
+
 .margin-16{
       margin: 16px;
 }
+
 .padding-16{
       padding: 16px;
 }
@@ -171,9 +175,11 @@ footer {
 .text-aligment-right{
       text-align: right;
 }
+
 .texto-uppercase{
       text-transform: uppercase;
 }
+
 .font-weight-normal {
       font-weight: normal;
 }
@@ -270,23 +276,28 @@ footer {
       margin-top: 35px;
       margin-bottom: 16px;
 }
+
 .btn-dark{
       color: white;
 }
+
 .btn-outline-dark{
       border-color: #757575;
       color: #757575;
 }
+
 .btn-dark:hover {
       background-color: white;
       border-color: white;
       color: #000;
 }
+
 .btn-outline-dark:hover {
       background-color: white;
       border-color: #000;
       color: #000;
 }
+
 .nav-item-social {
       flex: 1 1 auto;
       text-align: center;
@@ -315,6 +326,7 @@ footer {
       font-weight: normal;
       color: #919496;
 }
+
 .color-9e{
       color: #9e9e9e;
 }
@@ -374,11 +386,13 @@ footer {
       border-left: 5px solid #1ed760;
       margin-left: -5px;
 }
+
 .aviso{
       background: #f8f8f8;
       border: 1px solid #d9dadc;
       padding:16px;
 }
+
 .plano{
       font-family: Spotify-font;
       color: white;
@@ -386,9 +400,11 @@ footer {
       height: 230px;
       background-image: linear-gradient(to bottom, #b22abd, #9822b9);
 }
+
 .heght-37c{
       height: 37%;
 }
+
 .pre-rodape{
       margin: 90px;
 }
