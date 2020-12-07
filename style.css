@@ -244,6 +244,9 @@ footer {
       font-weight: normal;
       color: #919496;
 }
+.drop-shadow {
+	filter: drop-shadow(0.0rem 0.0rem 1rem rgb(70, 70, 78));
+}
 
 @media (min-width:576px) {
 }
