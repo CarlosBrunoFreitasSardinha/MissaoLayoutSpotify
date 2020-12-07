@@ -206,7 +206,22 @@ footer {
       background-size: contain;
       background-origin: content-box;
 }
-
+.div-icone{
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      width: 54px;
+      height: 54px;
+      background: url(assets/img/fundo.png) no-repeat;
+      background-size: contain;
+      background-origin: content-box;
+      line-height: 35px;
+}
+.icone{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+}
 .btn-dark {
       background-color: black;
       padding: 8px 32px 8px 32px;
@@ -230,6 +245,9 @@ footer {
       text-align: center;
       display: inline;
       margin-left: 10px;
+      height: 40px;
+      width: 40px;
+      background-image: url('assets/img/fundo.png') no-repeat;
 }
 .width-full{
       width: 100%;
