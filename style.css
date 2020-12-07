@@ -338,7 +338,6 @@ footer {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     padding: 0;
-    border: springgreen solid 1px;
 }
 
 .list-group-item{
@@ -373,10 +372,12 @@ footer {
       font-size: 43px;
       height: 230px;
       background-image: linear-gradient(to bottom, #b22abd, #9822b9);
-      position: relative;
 }
-.plano span{
-      top: 50%;
+.heght-30c{
+      height: 37%;
+}
+.pre-rodape{
+      margin: 90px;
 }
 
 @media (min-width:576px) {
