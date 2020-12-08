@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+/*Fontes importadas para oprojeto
+*/
 @font-face {
       font-family: Spotify-font;
       src: url(assets/font/Spotify/CircularSpotifyTxT-Black.ttf)
@@ -82,8 +84,7 @@ footer {
       background-color: black;
 }
 
-/*Classes criadas para header
-*não se exluindo sua interrelação
+/*Classes criadas para header não se exluindo sua interrelação
 */
 
 .div-header {
