@@ -288,6 +288,25 @@ footer {
       background-origin: content-box;
 }
 
+.imagem-perfil-1{
+      height: 36px;
+      width: 36px;
+}
+
+.imagem-perfil-2{
+      height: 82px;
+      width: 82px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+}
+
+.icone{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+}
+
 .div-icone{
       display: -webkit-box;
       display: -webkit-flex;
@@ -300,12 +319,6 @@ footer {
       line-height: 35px;
 }
 
-.icone{
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-}
-
 .nav-item-social {
       flex: 1 1 auto;
       text-align: center;
@@ -313,7 +326,6 @@ footer {
       flex-grow: 1;
       text-align: center;
       display: inline;
-      margin-left: 10px;
       height: 40px;
       width: 40px;
       background-image: url('assets/img/fundo.png') no-repeat;
@@ -404,8 +416,8 @@ footer {
       font-weight: normal;
 }
 
-.width-full{
-      width: 100%;
+.width-70-per{
+      width: 70%;
 }
 
 .color-9e{
@@ -423,7 +435,7 @@ footer {
       margin-right: 10px;
 }
 
-.heght-37c{
+.height-37-per{
       height: 37%;
 }
 
