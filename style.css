@@ -9,18 +9,19 @@
       font-family: CircularAir-Book;
       src: url(assets/font/CircularAir-Book/CircularAir-Book.ttf)
 }
-
+/*Adequações pertinentes a todos os elementos*/
 * {
       box-sizing: border-box;
       webkit-box-sizing: border-box;
       box-sizing: border-box;
 }
 
-*:before,
-*:after {
+*:before, *:after {
       -webkit-box-sizing: border-box;
       box-sizing: border-box;
 }
+
+/*Configuração de Tags Padrões*/
 
 body {
       font-family: CircularAir-Book;
@@ -81,6 +82,9 @@ footer {
       background-color: black;
 }
 
+/*Classes criadas para header
+*não se exluindo sua interrelação
+*/
 
 .div-header {
       margin-top: 20px;
@@ -107,6 +111,9 @@ footer {
       color: #1ed760;
 }
 
+/* Especificações em classes bootstrap entre outras classes 
+*que irão compartilhar configurações
+*/
 .nav-item {
       margin-top: auto;
       margin-bottom: auto;
@@ -121,13 +128,81 @@ footer {
       color: #1ed760;
 }
 
+.nav-link{
+      font-family: CircularAir-Book;
+}
+
+.btn-dark,.btn-outline-dark {
+      padding: 8px 32px 8px 32px;
+      border-radius: 32px;
+      font-size: 14px;
+      margin-top: 35px;
+      margin-bottom: 16px;
+}
+
+.btn-dark{
+      color: white;
+}
+
+.btn-outline-dark{
+      border-color: #757575;
+      color: #757575;
+}
+
+.btn-dark:hover {
+      background-color: white;
+      border-color: white;
+      color: #000;
+}
+
+.btn-outline-dark:hover {
+      background-color: white;
+      border-color: #000;
+      color: #000;
+}
+
+.list-group{
+    font-size: 16px;
+    list-style: none;
+    position: relative;
+    border-bottom-color: rgba(255, 255, 255, 0.05);
+    border-top-color: rgba(0, 0, 0, 0.2);
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.list-group-item{
+      background-color: transparent;
+      display: block;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.005);
+      border-top: 1px solid rgba(0, 0, 0, 0.025);
+      border-bottom-color: rgba(0, 0, 0, 0.2);
+      border-top-color: rgba(255, 255, 255, 0.05);
+      padding: 15px 15px 15px 75px;
+      position: relative;
+      font-size: 16px;
+      line-height: 24px;
+      color: #919496;
+      padding-left: 15px;
+      text-align: -webkit-match-parent;
+}
+
+.list-group-item:hover{
+      color: #F8F8F8;
+      border-left: 5px solid #1ed760;
+      margin-left: -5px;
+}
+
+
+/* Classes criadas para esta interface
+* com mais de um atribulo
+*/
+
 .nav-link-header{
       font-family: Spotify-font;
       font-weight: 600;
-}
-
-.nav-link{
-      font-family: CircularAir-Book;
 }
 
 .navbar-spotify:not(:last-child) {
@@ -138,50 +213,6 @@ footer {
 .bandeira{
       height: 12px;
       width: 20;
-}
-
-.padding-right-0 {
-      padding-right: 0px;
-}
-
-.padding-left-32 {
-      padding-left: 32px;
-}
-
-.margin-left-6 {
-      margin-left: 6px;
-}
-
-.margin-16{
-      margin: 16px;
-}
-
-.padding-16{
-      padding: 16px;
-}
-
-.padding-top-10{
-      padding-top: 30px;
-}
-
-.text-aligment-center{
-      text-align: center;
-}
-
-.text-aligment-left{
-      text-align: left;
-}
-
-.text-aligment-right{
-      text-align: right;
-}
-
-.texto-uppercase{
-      text-transform: uppercase;
-}
-
-.font-weight-normal {
-      font-weight: normal;
 }
 
 .letras-miudas {
@@ -269,35 +300,6 @@ footer {
       margin-right: auto;
 }
 
-.btn-dark,.btn-outline-dark {
-      padding: 8px 32px 8px 32px;
-      border-radius: 32px;
-      font-size: 14px;
-      margin-top: 35px;
-      margin-bottom: 16px;
-}
-
-.btn-dark{
-      color: white;
-}
-
-.btn-outline-dark{
-      border-color: #757575;
-      color: #757575;
-}
-
-.btn-dark:hover {
-      background-color: white;
-      border-color: white;
-      color: #000;
-}
-
-.btn-outline-dark:hover {
-      background-color: white;
-      border-color: #000;
-      color: #000;
-}
-
 .nav-item-social {
       flex: 1 1 auto;
       text-align: center;
@@ -309,10 +311,6 @@ footer {
       height: 40px;
       width: 40px;
       background-image: url('assets/img/fundo.png') no-repeat;
-}
-
-.width-full{
-      width: 100%;
 }
 
 .texto-end{
@@ -327,14 +325,6 @@ footer {
       color: #919496;
 }
 
-.color-9e{
-      color: #9e9e9e;
-}
-
-.drop-shadow {
-	filter: drop-shadow(0.0rem 0.0rem 1rem rgb(70, 70, 78));
-}
-
 .menu-lateral{
       background-color: #282828;
       margin: 0px;
@@ -344,47 +334,6 @@ footer {
 .perfil-avatar{
       margin-top: 15px;
       margin-bottom: 36px;
-}
-.avatar{
-      color: #222326;
-}
-.icon-nav{
-      
-      margin-right: 10px;
-}
-
-.list-group{
-    font-size: 16px;
-    list-style: none;
-    position: relative;
-    border-bottom-color: rgba(255, 255, 255, 0.05);
-    border-top-color: rgba(0, 0, 0, 0.2);
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    padding: 0px;
-    margin: 0px;
-}
-
-.list-group-item{
-      background-color: transparent;
-      display: block;
-      border-bottom: 1px solid rgba(0, 0, 0, 0.005);
-      border-top: 1px solid rgba(0, 0, 0, 0.025);
-      border-bottom-color: rgba(0, 0, 0, 0.2);
-      border-top-color: rgba(255, 255, 255, 0.05);
-      padding: 15px 15px 15px 75px;
-      position: relative;
-      font-size: 16px;
-      line-height: 24px;
-      color: #919496;
-      padding-left: 15px;
-      text-align: -webkit-match-parent;
-}
-
-.list-group-item:hover{
-      color: #F8F8F8;
-      border-left: 5px solid #1ed760;
-      margin-left: -5px;
 }
 
 .aviso{
@@ -401,6 +350,73 @@ footer {
       background-image: linear-gradient(to bottom, #b22abd, #9822b9);
 }
 
+/* Classes criadas para esta interface
+* com apenas um atributo
+*/
+
+.margin-left-6 {
+      margin-left: 6px;
+}
+
+.margin-16{
+      margin: 16px;
+}
+
+.padding-right-0 {
+      padding-right: 0px;
+}
+
+.padding-left-32 {
+      padding-left: 32px;
+}
+
+.padding-16{
+      padding: 16px;
+}
+
+.padding-top-10{
+      padding-top: 30px;
+}
+
+.text-aligment-center{
+      text-align: center;
+}
+
+.text-aligment-left{
+      text-align: left;
+}
+
+.text-aligment-right{
+      text-align: right;
+}
+
+.texto-uppercase{
+      text-transform: uppercase;
+}
+
+.font-weight-normal {
+      font-weight: normal;
+}
+
+.width-full{
+      width: 100%;
+}
+
+.color-9e{
+      color: #9e9e9e;
+}
+.avatar{
+      color: #222326;
+}
+
+.drop-shadow {
+	filter: drop-shadow(0.0rem 0.0rem 1rem rgb(70, 70, 78));
+}
+.icon-nav{
+      
+      margin-right: 10px;
+}
+
 .heght-37c{
       height: 37%;
 }
@@ -408,6 +424,8 @@ footer {
 .pre-rodape{
       margin: 90px;
 }
+
+/* Espaço para configuração de Layout Responsivo*/
 
 @media (min-width:576px) {
 }
