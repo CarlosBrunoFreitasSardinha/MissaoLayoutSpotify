@@ -196,6 +196,11 @@ footer {
       margin-left: -5px;
 }
 
+.temporaria-para-xemplificao-caso-selecionado-o-link{
+      color: #F8F8F8;
+      border-left: 5px solid #1ed760;
+      margin-left: -5px;
+}
 
 /* Classes criadas para esta interface
 * com mais de um atribulo
