@@ -385,13 +385,12 @@ footer {
       background-color: white;
 }
 
-.obs-form {
+.obs-form, .obs-form a{
       font-size: 13px;
       line-height: 13px;
       margin: 16px 0;
       width: 100%;
       color: #9e9e9e;
-      text-decoration: none;
 }
 
 /* Classes criadas para esta interface
