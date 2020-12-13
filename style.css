@@ -133,7 +133,7 @@ footer {
       font-family: CircularAir-Book;
 }
 
-.btn-dark,.btn-outline-dark {
+.btn-dark,.btn-outline-dark, .btn-estilo-principal{
       padding: 8px 32px 8px 32px;
       border-radius: 32px;
       font-size: 14px;
@@ -141,7 +141,7 @@ footer {
       margin-bottom: 16px;
 }
 
-.btn-dark{
+.btn-dark, .btn-estilo-principal{
       color: white;
 }
 
@@ -160,6 +160,18 @@ footer {
       background-color: white;
       border-color: #000;
       color: #000;
+}
+
+.btn-estilo-principal{
+      padding: 12px 32px 12px 32px;
+      background-color: #1db954;
+      margin-left: 10px;
+}
+
+.btn-estilo-principal:hover{
+      background-color: #1ed760;
+      color: white;
+      transform: scale(1.08);
 }
 
 .list-group{
@@ -218,7 +230,7 @@ footer {
 
 .bandeira{
       height: 12px;
-      width: 20;
+      width: 20px;
 }
 
 .letras-miudas {
@@ -328,7 +340,7 @@ footer {
       display: inline;
       height: 40px;
       width: 40px;
-      background-image: url('assets/img/fundo.png') no-repeat;
+      background: url('assets/img/fundo.png') no-repeat;
 }
 
 .texto-end{
@@ -347,6 +359,7 @@ footer {
       background-color: #282828;
       margin: 0px;
       padding: 4px;
+      padding-bottom: 150px;
 }
 
 .perfil-avatar{
@@ -366,6 +379,19 @@ footer {
       font-size: 43px;
       height: 230px;
       background-image: linear-gradient(to bottom, #b22abd, #9822b9);
+}
+
+.corpo{
+      background-color: white;
+}
+
+.obs-form {
+      font-size: 13px;
+      line-height: 13px;
+      margin: 16px 0;
+      width: 100%;
+      color: #9e9e9e;
+      text-decoration: none;
 }
 
 /* Classes criadas para esta interface
@@ -388,7 +414,7 @@ footer {
       padding-left: 32px;
 }
 
-.padding-16{
+.padding-16, .form-control, .form-select{
       padding: 16px;
 }
 
